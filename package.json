@@ -1,0 +1,21 @@
+{
+  "name": "qidx-mono",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "indexer": "npm run start --workspace=packages/indexer",
+    "matcher": "npm run start --workspace=packages/matcher",
+    "demo": "npm run demo --workspace=packages/matcher",
+    "build": "npm run build --workspaces"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.16.1",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
