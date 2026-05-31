@@ -10,6 +10,10 @@ A full-stack settlement engine: atomic batch settlement on-chain + a price-time 
 - Indexer: `https://qidx-production.up.railway.app`
 - Matcher: `https://settlement-production-b250.up.railway.app`
 
+**Repos**
+- [`mahelikaa/qidx`](https://github.com/mahelikaa/qidx) — indexer
+- [`mahelikaa/settlement`](https://github.com/mahelikaa/settlement) — Anchor program + matcher
+
 ---
 
 ## Architecture
